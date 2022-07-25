@@ -85,17 +85,32 @@ build {
     ]
   }
 
+#   provisioner "powershell" {
+#     elevated_user     = build.User
+#     elevated_password = build.Password
+#     scripts = [
+#       "../../scripts/Install-Git.ps1",
+#       "../../scripts/Install-GitHub-CLI.ps1",
+#       "../../scripts/Install-DotNet.ps1",
+#       "../../scripts/Install-Python.ps1",
+#       "../../scripts/Install-GitHubDesktop.ps1",
+#       "../../scripts/Install-AzureCLI.ps1",
+#       "../../scripts/Install-VSCode.ps1"
+#     ]
+#   }
   provisioner "powershell" {
     elevated_user     = build.User
     elevated_password = build.Password
     scripts = [
       "../../scripts/Install-Git.ps1",
       "../../scripts/Install-GitHub-CLI.ps1",
-      "../../scripts/Install-DotNet.ps1",
-      "../../scripts/Install-Python.ps1",
+      "../../scripts/Install-DotNet.ps1",      
       "../../scripts/Install-GitHubDesktop.ps1",
       "../../scripts/Install-AzureCLI.ps1",
       "../../scripts/Install-VSCode.ps1"
+      "../../scripts/Install-Python3.8.ps1",
+      "../../scripts/Install-Eclipse.ps1",
+      "../../scripts/Install-GCloudCLI.ps1"
     ]
   }
 
