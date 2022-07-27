@@ -105,12 +105,13 @@ build {
       "../../scripts/Install-Git.ps1",
       "../../scripts/Install-GitHub-CLI.ps1",
       "../../scripts/Install-DotNet.ps1",      
-      "../../scripts/Install-GitHubDesktop.ps1",
+#      "../../scripts/Install-GitHubDesktop.ps1",
       "../../scripts/Install-AzureCLI.ps1",
       "../../scripts/Install-VSCode.ps1",
       "../../scripts/Install-Python3.8.ps1",
       "../../scripts/Install-Eclipse.ps1",
-      "../../scripts/Install-GCloudCLI.ps1"
+      "../../scripts/Install-GCloudCLI.ps1",
+      "../../scripts/Install-WSL.ps1"
     ]
   }
 
