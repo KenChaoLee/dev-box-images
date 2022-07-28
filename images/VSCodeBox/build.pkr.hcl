@@ -111,7 +111,8 @@ build {
       "../../scripts/Install-Python3.8.ps1",
       "../../scripts/Install-Eclipse.ps1",
       "../../scripts/Install-GCloudCLI.ps1",
-      "../../scripts/Install-WSL.ps1"
+#      "../../scripts/Install-WinSCP.ps1",
+#      "../../scripts/Install-WSL.ps1"
     ]
   }
 
